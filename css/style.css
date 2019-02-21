@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	background-color: #fff;
+	font-family: 'robotoregular';
+}
+a{
+	text-decoration: none !important;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+input{
+	padding: 5px;
+}
+button{
+	outline: none;
+	background-color: #23A0FB;
+	border: none;
+	padding: 5px;
+}
+
+.alert{
+	position: fixed;
+	top: 140px;
+	right: 10px;
+	display: table;
+}
+
+.header_top{
+	width: 100%;
+	background-color: black;
+	display: table;
+	margin-bottom: 0px;
+}
+.header_top a {
+	color: white;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.header_content2 a::after{
+	content: "|";
+	height: 20px;
+	color: white;
+	font-weight: bolder;
+	padding: 10px;
+}
+
+.header_content2 alast-child::after {
+display: none;
+}
+
+
+.header_content1  ul li{
+	display: inline-block;
+}
+.header_content1{
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	padding: 10px;
+	float: left;
+	font-size: 26px;
+}
+.header_content2{
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	padding: 10px;
+	float: right;
+	font-size: 20px;
+}
+.header_content2 ul li{
+	display: inline-block;
+}
+.header_bottom {
+	background-color: #a5cfd1;
+	padding: 15px;
+	display: inline-block;
+	width: 100%;
+	font-size: 15px
+}
+.header_bottom a{
+	color: black;
+}
+.logo{
+	float: left;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+.logo img{
+	height: 88px;
+	width: auto;
+}
+.menu_links{
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+	display:inline-block;
+}
+.menu_links ul li{
+	display: inline-block;
+	padding:27px 10px;
+	font-size: 18px; 
+}
+.image_box{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+.image_container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: auto;
+	margin: 10px;
+	transition: all 2.8s;
+}
+.image_container img {
+    width: 100%;
+}
+.dropdown button{
+	text-decoration: none;
+}
+.dropdown ul li {
+    padding: 10px;
+    width: 100%;
+}
+ul.dropdown-menu.open {
+    display: block;
+}
